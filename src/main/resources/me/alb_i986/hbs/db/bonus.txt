@@ -1,0 +1,1 @@
+11111,nonUtilizzato,30.0,30.0,2012-06-06,quotaFissa,33

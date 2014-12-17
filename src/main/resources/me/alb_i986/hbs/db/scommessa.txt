@@ -1,0 +1,4 @@
+5,2.5,quotaFissa,4.0,10.0,false,false,vincente,2010-07-08,22,111,1111,null,null
+6,2.6,quotaFissa,2.0,10.0,true,false,vincente,2010-03-03,null,333,2222,44,22
+7,2.6,quotaFissa,2.0,10.0,false,true,vincente,2010-03-03,null,333,3333,44,22
+8,2.6,quotaFissa,2.0,10.0,true,false,vincente,2010-03-03,33,333,1111,null,null
