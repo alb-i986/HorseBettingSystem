@@ -24,12 +24,16 @@ http://bootstraphped.altervista.org/HorseBettingSystem/
 First of all you need to setup Derby.
 Please follow [the Getting Started guide](https://builds.apache.org/job/Derby-docs/lastSuccessfulBuild/artifact/trunk/out/getstart/index.html).
 
-Once the derby service is listening for incoming connections, you can run
+Once derby is installed, you can run
+
+        ./run.sh
+
+which will:
+
+- start derby
+- create the DB and populate it with some sample data, by executing
 
         mvn clean compile exec:java -Dexec.mainClass=me.alb_i986.hbs.db.DbSetupMain
-
-which will create the DB and populate it with some sample data.
-
-Finally, you can run the system with:
+- finally, run the system, by executing
 
         mvn exec:java
